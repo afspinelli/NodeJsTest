@@ -1,0 +1,219 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  background: url(../images/back.png) no-repeat;
+  padding-left: 20px;
+  font-family: 'Major Mono Display', monospace;
+  font-size: large;
+  text-shadow: 2px 2px 5px #f700ffb2;
+}
+
+.navbar li:hover {
+  font-size: larger;
+  text-shadow: 1px 1px 10px #00fff2b2;
+}
+
+.loginlink a { 
+  color: #000000;
+}
+
+.loginlink a:hover {
+  color: #ffffff;
+  font-size: larger;
+  text-shadow: 1px 1px 10px #00fff2b2;
+}
+
+.titulo {
+  font-size: xx-large;
+  text-shadow: 1px 1px 10px #00fff2b2;
+}
+
+.middletext {
+  text-shadow: 1px 1px 10px #fffb00;
+}
+
+.middletext:hover {
+  text-shadow: 1px 1px 10px #000000;
+}
+
+.middletextbox {
+  display: grid;
+  justify-content: center;
+  margin-top: 3%;
+  font-family: 'Orbitron', sans-serif;
+  font-size: larger;
+  text-shadow: 1px 1px 10px #00fff2b2;
+}
+
+.background {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  background: url(../images/back.png) no-repeat;
+}
+
+.preloguintitlebox {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.loginbox {
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+}
+
+.loguinbox p {
+  font-family: 'Orbitron', sans-serif;
+  font-size: larger;
+  text-shadow: 1px 1px 10px #00fff2b2;
+}
+
+h1, h2 {
+  margin-top: 30px;
+  font-family: 'Major Mono Display', monospace;
+  text-shadow: 2px 2px 10px #f700ffb2;
+}
+
+h3 {
+  font-family: 'Major Mono Display', monospace;
+  text-shadow: 2px 2px 10px #f700ffb2;
+}
+
+p {
+  font-family: 'Orbitron', sans-serif;
+}
+
+.hero {
+  min-height: 800px;
+  margin-top: 0px;
+  margin-bottom: 150px;
+  color: #000000;
+  font-size: large;
+}
+
+.hero p {
+  text-shadow: 1px 1px 10px #00fff2b2;
+}
+
+.historybox {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-shadow: 1px 1px 10px #ffffffb2;
+  text-align: justify;
+}
+
+.fotorama {
+  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.75);
+  border-radius: 15px 15px 15px 15px;
+}
+
+.col .card {
+  background: url(../images/back.png) no-repeat;
+  background-size: contain;
+  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.75);
+  border-radius: 15px 15px 15px 15px;
+}
+
+.col .card .card-img-top {
+  border-radius: 15px 15px 15px 15px;
+}
+
+.col .card .card-title {
+  color: #ffffff;
+}
+
+.col .card .card-text {
+  color: #000000;
+}
+
+.contactformb {
+  font-family: 'Orbitron', sans-serif;
+}
+
+label {
+  text-shadow: 1px 1px 10px #ffffffb2;
+}
+
+.form-control:focus {
+  outline: none !important;
+  border-color: #f700ffb2;
+  box-shadow: 0 0 10px #00fff2b2;
+}
+
+form input {
+  font-family: 'Orbitron', sans-serif;
+  font-size: medium;
+}
+
+form button {
+  margin-top: 2%;
+  margin-left: 0px;
+  font-family: 'Orbitron', sans-serif;
+  font-size: medium;
+}
+
+.loguinok {
+  /* max-width: 370px;
+  text-align: left;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-top: 70px; */
+  font-family: 'Orbitron', sans-serif;
+  /* font-size: small; */
+  text-shadow: 1px 1px 10px #00fff2b2;
+}
+
+.submitbuttonb {
+  color: #ffffff;
+  transition: 0.7s;
+  background-color: #f700ff50;
+  border-color: #00fff2b2;
+}
+
+.submitbuttonb:hover {
+  color: #000000;
+  transition: 0.7s;
+  background-color: #00fff250;
+  border-color: #f700ffb2;
+}
+
+.submitbuttonb:focus {
+  color: #ffffff;
+  transition: 0.7s;
+  background-color: #ffffff50;
+  border-color: #ffffff;
+}
+
+footer {
+  background-color: #00fff236;
+}
+
+footer a {
+  color: #000000;
+}
+
+footer a:hover {
+  color: #ffffff;
+}
+
+.messageformb {
+  color: #000000;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 14px;
+  text-shadow: 1px 1px 10px #ffffffb2;
+}
+
+.loguinuser {
+  color: #ff0000;
+  text-shadow: 1px 1px 10px #ffffffb2;
+}
