@@ -1,13 +1,55 @@
 <div class="row" style="margin:10px auto">
-        <div class="col">
-            <p class="text-end">
-                <span>Hola {{userName}}!</span>
-                <a href="/admin/login/logout" class="btn btn-danger">LogOut<i class="fasfa-sign-out-alt"></i></a>
-            </p>
+    <div class="col">
+        <p class="text-end">
+            <span>Hola {{userName}}!</span>
+            <a href="/admin/login/logout" class="btn btn-danger">LogOut<i class="fasfa-sign-out-alt"></i></a>
+        </p>
+    </div>
+</div>
+
+<div class="container v-100 justify-content-center align-items-center" style="margin:50px auto">
+    <div class="row">
+        <div class="col-7" style="margin-top:-30px">
+            <h2>News List</h2>
+        </div>
+        <div class="col-5 text-end">
+            <a href="" class="btn btn-success"><i class="fas fa-plus"></i> New</a>
         </div>
     </div>
 
 
-<div class="container v-100 d-flex justify-content-center align-items-center" style="margin:100px auto">
-    <h3 class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem quae saepe non, voluptatibus minus dignissimos eaque quasi reiciendis voluptate veniam suscipit. Dolorum, voluptatibus. Doloribus vero dolore sapiente error modi ducimus?</h3>
+
+
+    <table class="table table-hover align-middle" style="background-color:rgba(43, 226, 202, 0.336)">
+        <thead>
+            <tr class="table-dark">
+                <th scope="col">#</th>
+                <th scope="col">Title</th>
+                <th scope="col" class="text-end">Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{#each news}}
+            <tr>
+                <th scope="row">{{id}}</th>
+                <td>{{title}}</td>
+                <td class="text-end">
+                    <a href="" class="btn btn-secondary"><i class="fas fa-pencil-alt"></i></a>
+                    <a href="/admin/news/delete/{{id}}" class="btn btn-secondary"><i class="fas fa-trash"></i></a>
+                </td>
+                {{/each}}
+            </tr>
+        </tbody>
+    </table>
+
+
+
+
+
+
+
+
+
+
+
 </div>
